@@ -41,7 +41,7 @@ class MainKtTest {
         value = 1000
         fromCard = "Maestro"
         result = comission(value, fromCard, toCard, sentInMonth)
-        assertEquals(22, result)
+        assertEquals(0, result)
     }
 
     @Test
